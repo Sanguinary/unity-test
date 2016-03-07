@@ -7,6 +7,7 @@ public class GameControl : MonoBehaviour {
 
     public float health;
     public float experience;
+    public string textField = "Default String";
 
     // Checks if the control object exists, if not, save it
     void Awake() {
